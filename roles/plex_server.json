@@ -1,0 +1,9 @@
+{
+  "name": "plex_server",
+  "description": "The base role for my home plex server.",
+  "default_attributes": {
+    "dummy_attribute": {
+      "dummy_attribute": "false"
+    }
+  }
+}
