@@ -1,3 +1,3 @@
-[submodule "plex_media_server_cookbook"]
-	path = plex_media_server_cookbook
+[submodule "cookbooks/plex_media_server_cookbook"]
+	path = cookbooks/plex_media_server_cookbook
 	url = https://github.com/thebwookie17/plex_media_server_cookbook
