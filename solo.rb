@@ -1,5 +1,5 @@
-working_dir       = '/var/chef/cache'
-file_cache_path   "#{working_dir}" 
-cookbook_path     "#{working_dir}/cookbooks" 
-role_path         "#{working_dir}/roles" 
-data_bag_path     "#{working_dir}/data_bags"
+current_dir       = File.expand_path(File.dirname(__FILE__)) 
+file_cache_path   "#{current_dir}" 
+cookbook_path     "#{current_dir}/cookbooks" 
+role_path         "#{current_dir}/roles" 
+data_bag_path     "#{current_dir}/data_bags"
