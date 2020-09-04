@@ -9,5 +9,5 @@ chef-solo -version
 yum install git
 git clone https://github.com/thebwookie17/chef_repo
 cd chef_repo/
-chef-solo -c solo.rb
+chef-solo -c solo.rb -j roles/plex_server.json
 ```
